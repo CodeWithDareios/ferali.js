@@ -1,0 +1,16 @@
+{
+  "name": "@ferali/core",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "The core of the Ferali.js framework",
+  "author": "Dárius Kočiš",
+  "license": "MIT",
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "exports": {
+    ".": "./src/index.js",
+    "./internal": "./src/internal.js"
+  }
+}
